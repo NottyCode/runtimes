@@ -3,7 +3,7 @@
 copyright:
   years: 2015, 2020
 
-lastupdated: "2020-02-07"
+lastupdated: "2020-03-11"
 
 ---
 
@@ -14,6 +14,12 @@ lastupdated: "2020-02-07"
 {: #latest_updates}
 
 ## A list of the latest updates in the Liberty buildpack.
+
+### March 11, 2020: Updated Liberty buildpack v3.42-20200306-1144
+
+* The default Liberty runtime GA version was changed to the `20.0.0.3` release.
+* The alternate Liberty runtime GA version is also the `20.0.0.3` release.
+* GC logging is enabled by default and logs are stored in `/home/vcap/logs`.
 
 ### February 7, 2020: Updated Liberty buildpack v3.41-20200207-0830
 
