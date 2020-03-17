@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-06-14"
+  years: 2018, 2020
+lastupdated: "2020-03-17"
 subcollection: "liberty"
 
 ---
@@ -14,7 +14,7 @@ subcollection: "liberty"
 # Install Liberty features
 {: #install-features}
 
-The Liberty for Java runtime includes [a subset of features](libertyFeatures.html#liberty_features) that are available in Liberty. You can install features that are not included in the runtime by running the Liberty `installUtility` command as a Cloud Foundry pre-runtime hook when the application is pushed to {{site.data.keyword.cloud_notm}}.
+The Liberty for Java runtime includes [a subset of features](/docs/runtimes/liberty/libertyFeatures.html#liberty_features) that are available in Liberty. You can install features that are not included in the runtime by running the Liberty `installUtility` command as a Cloud Foundry pre-runtime hook when the application is pushed to {{site.data.keyword.cloud_notm}}.
 
 For a full list of available features, see [Liberty features ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/SSEQTP_liberty/com.ibm.websphere.wlp.doc/ae/rwlp_feat.html).
 
